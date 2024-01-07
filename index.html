@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Purchase Link Example</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Payment Example</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <div class="purchase-container">
+        
+        
+        <!-- Purchase link -->
+        <a href="payment_form.html" class="purchase-link">Purchase</a>
+    </div>
+    <script>
+        // JavaScript to toggle visibility of payment form
+        document.getElementById('purchaseLink').addEventListener('click', function(event) {
+            event.preventDefault(); // Prevent default link behavior (e.g., navigation)
+
+            // Show/hide payment form
+            document.getElementById('paymentFormContainer').classList.toggle('hidden');
+        });
+    </script>
+</body>
+</html>
+

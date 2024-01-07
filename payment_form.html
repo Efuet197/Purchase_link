@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Payment Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Payment Form</h1>
+        <form id="paymentForm">
+            <label for="amount">Amount:</label>
+            <input type="text" id="amount" name="amount" value="1000.00XAF" readonly><br><br>
+            
+            <label for="phone_number">Phone Number:</label>
+            <input type="text" id="phone_number" name="phone_number" placeholder="Enter phone number"><br><br>
+            
+            <input type="submit" value="Pay Now" onclick="submitForm()">
+        </form>
+    </div>
+
+</body>
+</html>
+
